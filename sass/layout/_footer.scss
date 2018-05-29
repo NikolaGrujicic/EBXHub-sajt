@@ -1,0 +1,23 @@
+footer {
+    height: auto;
+    background-color: #212121;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer {
+    &-text {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: white;
+    }
+
+    &-container {
+        margin-top: 5rem;
+        padding: 0 5rem;
+    }
+
+    &-img {
+        padding: 3rem;
+    }
+}

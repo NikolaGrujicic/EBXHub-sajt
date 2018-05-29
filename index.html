@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css"> 
+</head>
+<body>
+<div class="body-container">
+
+        <header class="header">
+            <img src="img/ITHS_logo.png" class="header_img">
+        </header>
+          
+        <nav class="nav">
+            <a class="nav-brand"><img class="nav-brand_img" src="img/logo.png" alt=""></a>
+            <ul class="nav-list">
+                <li role="presentation" class="nav-list_item"><a class="nav-list_item-link" id="nav-button_1">O hakatonu</a></li>
+                <li role="presentation" class="nav-list_item"><a class="nav-list_item-link" id="nav-button_2">Uslovi</a></li>
+                <li role="presentation" class="nav-list_item"><a class="nav-list_item-link" id="nav-button_3">Kontakt</a></li>
+                <li role="presentation" class="nav-list_item"><a class="nav-list_item-link">Prijava</a></li>
+            </ul>
+        </nav>
+    
+    <section class="countdown">
+        <div class="jumbotron fadeInUpBig">
+            <h1 class="u-center-text u-margin-top-medium">
+                <span class="iths-name_1" >IT</span><span class="iths-name_2">HS</span><span class="iths-name_3"> Hakaton</span>
+            </h1>
+            <div id="del-countdown">
+                <div id="clock"></div>
+                <div id="units">
+                    <span>Dana</span>
+                    <span>Sati</span>
+                    <span>Minuta</span>
+                    <span>Sekundi</span>
+                </div>
+            </div>
+            <a class="btn btn--black btn--animated u-margin-bottom-medium" href="#about-row">Saznaj više</a>
+        </div>
+    </section>
+    <main>
+        <section class="o_hakatonu" id="1">
+
+            <h2 class="u-center-text u-margin-top-medium">
+                <span class="iths-name_1" >Sta je </span><span class="iths-name_1" >IT</span><span class="iths-name_2">HS</span><span class="iths-name_3"> Hakaton?</span>
+            </h2>
+
+            <h1 class="heading-primary u-center-text u-margin-top-big u-margin-bottom-medium">O Hakatonu</h1>
+
+            <ul class="u-center-text u-margin-bottom-big">
+               <ol class="text-deco">ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</ol>
+               <ol class="text-deco">ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</ol>
+               <ol class="text-deco">ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</ol>
+               <ol class="text-deco">ore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id</ol>
+            </ul>
+            <div class="row">
+                <div class="col-1-of-2">
+                    <ul id="list-about">
+                        <h3 class="heading-secondary u-center-text u-margin-bottom-small">Agenda</h3>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Dan 1</th>
+                                    <th scope="col">Dan 2</th>
+                                    <th scope="col">Dan 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                    <td><span class="vreme">13:30 - 14:00</span><br> <span class="desavanje">Početak</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </ul>
+                </div>
+                <div class="col-1-of-2">
+                    <h3 class="heading-secondary u-center-text u-margin-bottom-small">Prostorije održavanja</h3>
+                    <div class="modal_img"><a class="btn btn--black btn--animated u-margin-bottom-medium modal_btn" href="#popup" onclick="openModal();currentSlide(1)">Pogledaj prostorije</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="uslovi" id="2">
+            <h1 class="heading-primary1 u-margin-bottom-medium">Uslovi</h1>
+            <div class="row">
+
+                <div class="col-1-of-3 uslovi_col">
+                    <div>
+                        <h4 class="heading-tertiary" >Ko može da se prijavi?</h4>
+                    </div>
+                    <i class="fa fa-user"></i>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Već oformljeni timovi - maksimalno 4 člana</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Srednjoškolci</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Rok za prijavu je 13. novembar</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Đaci tehničkih škola</h5>
+                </div>
+
+                <div class="col-1-of-3 uslovi_col">
+                    <div>
+                        <h4 class="heading-tertiary" >Šta je obezbeđeno?</h4>
+                    </div>
+                    <i class="fa fa-user"></i>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Hrana i piće u toku trajanja Hakatona</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Mentorska podrška</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Radni prostor</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Prostor za odmor i relaksaciju</h5>
+                </div>
+
+                <div class="col-1-of-3 uslovi_col">
+                    <div>
+                        <h4 class="heading-tertiary" >Šta poneti?</h4>
+                    </div>
+                    <i class="fa fa-user"></i>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Lap top računare za sve članove tima</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Takmičarski duh</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Kreativnost</h5>
+                    <hr class="uslovi_hr">
+                    <h5 class="uslovi_text">Dobro raspoloženje</h5>
+                </div>
+            </div>
+        </section>
+
+        <section class="mentori u-margin-bottom-big">
+            <h1 class="heading-primary1 u-margin-bottom-medium">Mentori</h1>
+            <div class="row">
+
+                <div class="col-1-of-3">
+                    <div class="mentori_img">
+                        <img src="img/nikola_dragovic.jpg" alt="mentori slika" class="mentori_img-1">
+                    </div>
+                    <div class="mentori_text">
+                        <h4>Nikola Dragović</h4><br>
+                        <p>Profesor informatičke<br>grupe predmeta</p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="mentori_img">
+                        <img src="img/nikola_boskovic.jpg" alt="mentori slika" class="mentori_img-1">
+                    </div>
+                    <div class="mentori_text">
+                        <h4>Nikola Bošković</h4><br>
+                        <p>Profesor informatičke<br>grupe predmeta</p>
+                    </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="mentori_img">
+                        <img src="img/dragan_golubovic.jpg" alt="mentori slika" class="mentori_img-1">
+                    </div>
+                    <div class="mentori_text">
+                        <h4>Dragan Golubović</h4><br>
+                        <p>Profesor elektrotehničke<br>grupe predmeta</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="kontakt" id="3">
+            <h1 class="heading-primary1 u-margin-bottom-medium">Kontakt informacije</h1>
+            <h4 class="heading-secondary u-margin-bottom-medium" >Gde se nalazimo</h4>
+            <p class="kontakt_text u-margin-bottom-big">Nalazimo se na adresi <b class="kontakt_adresa">Savski nasip 7</b> na Novom Beogradu<br>u okviru Comtrade kompleksa</p>
+             
+            <div class="row kontakt_row">
+                <div class="col-1-of-2">
+                        <ul class="u-center-text u-margin-bottom-big">
+                                <ol class="text-deco1">Srednja škola za informacione tehnologije (ITHS)</ol>
+                                <ol class="text-deco1">prva je obrazovna ustanova ovakvog tipa u Srbiji.</ol>
+                                <ol class="text-deco1">Osim stručnih znanja iz ove oblasti,učenici naše</ol>
+                                <ol class="text-deco1">škole stiču i opšte obrazovanje.Modernom,</ol>
+                                <ol class="text-deco1">efikasnom i pre svega interaktivnom nastavom,</ol>
+                                <ol class="text-deco1">prilagođenom potrebama,sposobnostima i</ol>
+                                <ol class="text-deco1">interesovanjem učenika,nudimo profil</ol>
+                                <ol class="text-deco1">IT tehničara kakav traži savremeno društvo.</ol>
+                        </ul>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="composition">
+                        <img src="img/copy.jpg" alt="Photo 1" class="composition_photo composition_photo--p1">
+                        <img src="img/zgrada.jpg" alt="Photo 2" class="composition_photo composition_photo--p2">
+                        <img src="img/zgrada1.jpg" alt="Photo 3" class="composition_photo composition_photo--p3">
+                    </div>
+                </div>
+            </div>
+            <h4 class="heading-secondary" >Imate pitanja?<br>posaljite nam mejl</h4>
+            <form class="mail-forma" method="post">
+                    <div class="row form-row">
+                      <div class="col-1-of-2 mail-inputs">
+                        <div class="form-group text-center mail-icon">
+                          <span class="fa fa-envelope text-center"></span>
+                        </div>
+                        <div class="form-group">
+                          <input name="mail" class="form-control" type="email" placeholder="Mail adresa">
+                        </div>
+                        <div class="form-group">
+                          <input name="naslov" class="form-control" type="text" placeholder="Naslov poruke">
+                        </div>
+                      </div>
+                      <div class="col-1-of-2 mail-text_area form-group error">
+                        <textarea name="sadrzaj" class="form-control" placeholder="Napišite poruku" spellcheck="false"></textarea>
+                      </div>
+                      
+                        <a class="btn btn--black btn--animated u-margin-top-medium" type="submit" href="#about-row">Pošalji</a>
+                      
+                    </div>
+            </form>
+            
+        </section>
+
+        <section class="mapa">
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="footer-container">
+                <div class="col-1-of-2">
+                <img src="img/logoBeli.png" alt="">
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer-text">Comtrade Technology Center, Savski nasip 7, 11070 Novi Beograd, Srbija Savetnik za upis: +381 11 4011 216 Školska služba: +381 11 2096 777 Finansijska služba: +381 11 4011 250</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="http://www.comtradegroup.com/"><img src="img/comtradeNovi.png" alt="" class="footer-img"></a>
+        <a href="http://www.its.edu.rs/"><img src="img/its1.png" alt="" class="footer-img"></a>
+        <a href="http://link.co.rs/"><img src="img/link.png" alt="" class="footer-img"></a>
+
+    </footer>
+
+    <!-- MODAL -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/zgrada.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/screen-1.jpg" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="img/Mac12.jpg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="img/front.jpg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+      
+      
+          <div class="column">
+            <img class="demo cursor" src="img/zgrada.jpg" style="width:100%" onclick="currentSlide(1)" alt="comtrade-iths">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/screen-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="comtrade-iths">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/Mac12.jpg" style="width:100%" onclick="currentSlide(3)" alt="comtrade-iths">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img/front.jpg" style="width:100%" onclick="currentSlide(4)" alt="comtrade-iths">
+          </div>
+        </div>
+      </div>
+  <!-- MODAL END-->
+
+  <!-- MODAL SCRIPT-->
+  <script>
+    function openModal() {
+      document.getElementById('myModal').style.display = "block";
+    }
+    
+    function closeModal() {
+      document.getElementById('myModal').style.display = "none";
+    }
+    
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+    </script>
+    <!-- MODAL SCRIPT END-->
+
+
+       <!--
+    <section class="grid-test">
+        <div class="row">
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
+            <div class="col-1-of-2">
+                col 1 of 2
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                col 1 of 3
+            </div>
+            <div class="col-2-of-3">
+                col 2 of 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-2-of-4">
+                col 2 of 4
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-4">
+                col 1 of 4
+            </div>
+            <div class="col-3-of-4">
+                col 3 of 4
+            </div>     
+        </div>
+    </section>
+    -->
+
+    <script src="js/countdown.js"></script>
+    <script src="js/fixedNav.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/initMap.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDF_uyXTWpM81pKDfLX637-TNJMIn0NPI&callback=initMap"></script>
+</div>
+</body>
+</html>

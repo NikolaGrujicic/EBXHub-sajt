@@ -1,0 +1,57 @@
+.nav {
+    background-color: white;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+
+    &-list {
+        height: auto;
+        text-align: center;
+    
+        &_item {
+            display: inline-block;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            cursor: pointer;
+            height: 4rem;
+    
+            &:hover {
+                color: #E4032E;
+                box-shadow: 0 0 5px black;
+                transform: rotate(5deg) scale(1.1);
+                backface-visibility: hidden;
+            }
+    
+            &-link {
+                font-weight: 600;
+                padding: 1.5rem;
+                position: relative;
+                top: 1rem;
+            }
+        }
+    }
+
+    &-brand {
+        
+
+        &_img {
+            height: 100px;
+            position: absolute;
+            top: -1rem;
+            transition: all 0.3s;
+            transform: translateX(-25rem);
+        }
+    }
+    
+}
+
+.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 -1px 10px;
+}
+
+.transform-img img {
+    transform: translateX(0);
+}

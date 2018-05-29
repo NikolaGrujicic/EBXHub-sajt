@@ -1,0 +1,96 @@
+.form-group{
+    margin-bottom:25px;
+  }
+  
+  textarea.form-control{
+    max-width: 100%;
+    min-width: 100%;
+    height:249px;
+  }
+
+  
+  .form-control{
+    display:block;
+    width:50rem;
+    height:auto;
+    padding:13px;
+    font-size:1.55rem;
+    line-height:1.25;
+    color:#fafafa;
+    background-color: rgba(255, 255, 255, 0);
+    background-image:none;
+    font-size: 20px;
+    border-radius:.25rem;
+    -webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  
+  .form-control:focus,
+  .form-control:active,
+  textarea.form-control:focus,
+  textarea.form-control:active {
+    background: rgba(255, 255, 255, 0) no-repeat;
+    box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.8),0 0 10px rgba(255, 255, 255, 0.8);
+    border: solid 0.5px #fff;
+    outline: 0 none;
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    /*background-image: linear-gradient(to bottom, #0d0d0d, #0d0d0d), linear-gradient(to bottom, #757575, #757575);
+    background-size: 100% 2px, 100% 1px;
+    background-position: 50% 100%, 50% 100%;*/
+  }
+  
+
+  .btn.send-mail {
+    background-color: #212121;
+    font-size: 24px;
+    color: white;
+    border: none;
+    border-radius:.25rem;
+    padding: 12px 24px;
+    margin: 20px auto;
+    width: 100%;
+    transition: all 0.4s;
+  }
+  
+  .btn.send-mail:hover,
+  .btn.send-mail:active {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    transform: scale(1.011);
+  }
+  
+  .mail {
+    background: #0d0d0d;
+    /*background: linear-gradient(120deg, rgba(13, 13, 13, 0.72) 40%, rgba(228, 2, 46, 0.7) 130%);*/
+    padding: 20px 43px;
+    border-radius:.25rem;
+
+    &-inputs {
+        width: 49% !important;
+        margin: 0 !important;
+    }
+
+    &-text_area {
+        width: 49% !important;
+        margin: 0 !important;
+    }
+
+    &-forma {
+      padding: 5rem;
+    }
+  }
+  
+  .mail-icon .fa-envelope {
+    color: #fafafa;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.mail-icon {
+    border-top: 1px solid #fafafa;
+    border-left: 1px solid #fafafa;
+    border-right: 1px solid #fafafa;
+    border-radius: 0.25em;
+    width: 53rem;
+}
