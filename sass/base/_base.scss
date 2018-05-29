@@ -22,11 +22,11 @@ html{
     }
 }
 
-body {
-    background: url(../img/front.png) no-repeat center center fixed;
-    background-size: cover;
-}
+body{
+    box-sizing: border-box;
+    padding: 3rem;
 
-main {
-    background: linear-gradient(120deg, rgba(13, 13, 13, 0.72) 40%, rgba(228, 2, 46, 0.7) 130%);
+    @include respond(tab-port) {
+        padding: 0;
+    }
 }
