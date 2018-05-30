@@ -55,10 +55,11 @@
 
 .book {
     background-image: linear-gradient(105deg,
-                                      rgba($color-white, .9) 0%,
-                                      rgba($color-white, .7) 50%,
-                                      transparent 50%), url(../img/san2.jpg);
-    background-size: 100%;
+                                      rgba($color-white, .6) 0%,
+                                      rgba($color-white, .3) 100%,
+                                      transparent 50%), url(../img/pankaj-patel-536207-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     height: 50rem;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);

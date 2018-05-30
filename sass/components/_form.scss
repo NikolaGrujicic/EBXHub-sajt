@@ -27,7 +27,7 @@
         }
 
         &::-webkit-input-placeholder {
-            color: $color-grey-dark-2;
+            color: $color-grey-dark-3;
         }   
     }
 
@@ -57,6 +57,7 @@
         cursor: pointer;
         position: relative;
         padding-left: 4.5rem;
+        color: $color-grey-dark-3;
     }
 
     &_radio-button {
@@ -92,4 +93,8 @@
     &_radio-input {
         display: none;
     }
+}
+
+.contact_form-position {
+    position: absolute;
 }
